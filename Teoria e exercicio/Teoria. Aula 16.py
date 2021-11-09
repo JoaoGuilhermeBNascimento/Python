@@ -106,5 +106,5 @@ while True:
   if 0 <= n <= 20:
     break
   print('tente novamente. ', end=' ') 
-print(f'Você digitou o número {cont[]}') 
+print(f'Você digitou o número {cont[n]}') 
     
