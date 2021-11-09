@@ -1,0 +1,2 @@
+python -m venv git - criar ambiente virtual no vs code
+
