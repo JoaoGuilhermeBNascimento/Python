@@ -1,0 +1,25 @@
+python -m venv git - criar ambiente virtual no vs code
+.\new\Scripts\activate.ps1
+.\new\Scripts\activate.bat ( no cmd)
+Formatando valores com modificadores - Aula 5
+
+:s - Texto ( strings)
+:d  Inteiros (int)
+:f - Números de ponto flutuante(float)
+:.(numero)f - Quantidade de casas decimais ( float) :.2f
+:caractere (> ou < ou ^) Quantidade ( tipo -s, d ou f)
+
+> - esquerda
+< - Direita
+^ - Centro
+
+Ctrl + shift + l - troca o nome do  atributo em todo código
+alt + seta mover linha de código ou bloco de código
+
+shift + alt+ seta = para clonnar trechos de código 
+
+Ctrl + ; para comentar a linha
+shift + alt+ A  = para transformar tudo em comentário 
+
+round = para quando quisermos definir quantas casas decimais devem ser retomadas 
+            p['preço'] = round(p['preço'] * 0.05,2)
