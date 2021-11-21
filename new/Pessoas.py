@@ -5,7 +5,8 @@ class Pessoa:
  """
  # todo e qualquer parametro que eu criar deve ser passado o parametrto self primeiro por convenção
 # começa a contar a partir do nome, o self é enviado automaticamente pelo python
-
+# Vale ressaltar que o ano atual no caso é um atributo da classe
+# já os def são atributos relacionados com a instância, que no caso é self.
 from datetime import datetime
 
 class Pessoa:
@@ -57,3 +58,12 @@ class Pessoa:
 
     def get_ano_nascimento(self):
         return self.ano_atual - self.idade
+   
+    @classmethod#decorador
+    #não quero me referir a estância eu quero me referir a classe, podendo ser qlq nome que eu quiser, menos class pois é a class criada,normalmente é chamada de cls
+    def por_ano_nascimento(cls, nome, ano_nascimento):
+        idade = cls.ano_atual - ano_nascimento
+        return cls(nome, idade)
+    
+
+    
