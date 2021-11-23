@@ -15,5 +15,6 @@ p1 = Pessoa('Luiz', 34)
 print(p1)
 print(p1.nome,p1.idade)
 print(p1.get_ano_nascimento())
-
+print(Pessoa.gera_id())
+print(p1.gera_id())
 # Quando for criar o metodo da classe ou da instância, pensar se o metodo é relacionado a classe como um todo ou a instância definida por init

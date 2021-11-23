@@ -8,6 +8,7 @@ class Pessoa:
 # Vale ressaltar que o ano atual no caso é um atributo da classe
 # já os def são atributos relacionados com a instância, que no caso é self.
 from datetime import datetime
+from random import randint
 
 class Pessoa:
     ano_atual = int(datetime.strftime(datetime.now(), '%Y'))
@@ -65,5 +66,9 @@ class Pessoa:
         idade = cls.ano_atual - ano_nascimento
         return cls(nome, idade)
     
-
+    @staticmethod
+    # nesse método não utilizamos nem a classe nem a estância, mas deve está dentro da classe por organização
+    def gera_id():
+        rand = randint(10000, 19999)
+        return rand
     

@@ -1,6 +1,7 @@
 python -m venv git - criar ambiente virtual no vs code
 .\new\Scripts\activate.ps1
 .\new\Scripts\activate.bat ( no cmd)
+WINDOWS + SHIFT + s
 Formatando valores com modificadores - Aula 5
 
 :s - Texto ( strings)
