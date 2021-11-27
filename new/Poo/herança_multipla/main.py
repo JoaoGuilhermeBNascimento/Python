@@ -7,11 +7,8 @@ smartphone.ligar()
 smartphone.conectar()
 smartphone.conectar()
 smartphone.desconectar()
-smartphone.desconectar()
 smartphone.desligar()
-smartphone.desligar()
-smartphone.ligar()
-smartphone.ligar()
+
 print('=~'*40)
 
 """ smartphone.conectar()
