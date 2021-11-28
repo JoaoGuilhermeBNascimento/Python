@@ -17,3 +17,7 @@ class ContaCorrente(Conta):
 
         self.saldo -= valor
         self.detalhes()
+
+class ContaTeste(Conta):
+    def __init__(self, agencia, conta, saldo) -> None:
+        super().__init__(agencia, conta, saldo)
